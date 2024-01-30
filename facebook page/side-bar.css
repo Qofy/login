@@ -1,0 +1,48 @@
+.side-bar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 65px;
+    background-color: white;
+    width: 290px;
+    z-index: 200;
+    padding-top: 5px; 
+}
+
+ .profile {
+   display: flex;
+   align-items: center;
+   margin-top: 20px;
+}
+
+.picture-channel {
+    height: 50px;
+    margin-right: 20px;
+    border-radius: 25px;
+    margin-left: 20px;
+}
+
+.chat {
+    font-family: arial;
+    font-weight: solid;
+}
+.side-bar-link {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    border-radius: 8px;
+    padding-left: 10px;
+}
+
+.side-bar-link:hover {
+    background-color: lightgray;
+}
+
+.btn {
+    padding-left: 20px;
+    font-family: roboto, arial;
+    font-weight: 400;
+}
+

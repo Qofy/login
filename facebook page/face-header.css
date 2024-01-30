@@ -1,0 +1,118 @@
+.header {
+    height: 60px;  
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(226, 224, 224);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+
+    background-color: white;
+   
+}
+
+.left-section { 
+    display: flex;
+    width: 250px;
+}
+
+.search {
+    height: 40px;
+    width: auto;
+    background-color: rgb(250, 245, 245);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    border-color: rgb(236, 233, 233);
+    margin-left: -1px;
+    margin-right: 10px;
+    padding-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    flex: 1;
+    margin: auto;
+}
+
+.search {
+    position: relative;
+}
+
+.search-icon {
+    position: absolute;
+    left: 20px;
+    padding-left: 48px;
+    padding-top: 8px;
+    border-radius: 15px;
+    height: 30px;
+    border-image: 15px;
+}
+
+.left-section {
+    display: flex;
+}
+
+.middle-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home, .game, .market-place, .group, .videos {
+    height: 30px;
+    margin-left: 20px;
+    padding-left: 10px;
+    padding-right: 20px;
+    align-items: center;
+}
+
+.right-section {
+    display: flex;
+    width: 200px;
+}
+
+.menue, .message, .notification{
+    height: 20px;
+    width: 20px;
+    border: 15px;
+    padding: 15px;
+    margin-left: 3px;
+    background-color: lightgray;
+    border-radius: 30px;
+    align-items: center;
+}
+
+
+.round {
+    display: flex;
+    align-items: center;
+    margin-left: 3px;
+}
+
+.home-buttom, .video-buttom, .market-place-buttom, .group-buttom, .game-buttom{
+    padding-top: 15px;
+    padding-bottom:6px;
+    padding-right: 5px;
+    border-radius: 8px;
+}
+
+.home-buttom:hover {
+    background-color: rgb(244, 239, 239);
+}
+.video-buttom:hover{
+    background-color: rgb(244, 239, 239)
+}
+.market-place-buttom:hover{
+    background-color: rgb(244, 239, 239)
+}
+.game-buttom:hover{
+    background-color: rgb(244, 239, 239)
+}
+.group-buttom:hover{
+    background-color: rgb(244, 239, 239)
+}

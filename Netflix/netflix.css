@@ -1,0 +1,101 @@
+html {
+  background-color: rgb(20, 20, 20);
+}
+
+header {
+  height: 60px;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: auto;
+}
+p {
+  color: white;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+}
+
+.text1, .text2, .text3 {
+  margin-right: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.text2{
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+}
+.text1 {
+  margin-left: 20px;
+  font-family: roboto, arial;
+  font-size: xx-large;
+  font-weight: bold;
+  letter-spacing: 3px;
+  color: red;
+  margin-left: 4rem;
+}
+
+.text-5 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 4.9rem;
+}
+
+img {
+  height: 50px;
+  margin-right: 2.5rem;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+}
+
+.search {
+  margin-right: 90px;
+  padding: 8px 30px;
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+  border: none;
+  
+}
+
+.search:hover {
+  background-color: black;
+}
+
+.search-img{
+  height: 1.1rem;
+  position: absolute;
+  z-index: 100%;
+  bottom: 47.4rem;
+  color: white;
+  background-color: white;
+  left: 55.-1rem;
+}
+.movies{
+  row-gap: 0;
+  column-gap: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.first-content{
+  height: 20rem;
+  margin: 0;
+  padding: 0;
+}
+.m1 {
+  height: 8rem;
+  margin: 0;
+  padding: 0;
+}
+.tt{
+  font-family: Arial, Helvetica, sans-serif;
+}
